@@ -611,13 +611,13 @@ header .go-back {
     padding-left: 5px;
     padding-right: 5px;
     z-index: 1;
-    height: 56px;
+    height: 68px;
 }
 
 header .go-back i {
     font-size: 1.6rem;
     font-weight: 200;
-    line-height: 56px;
+    line-height: 68px;
 }
 
 /* 背景图效果. */
