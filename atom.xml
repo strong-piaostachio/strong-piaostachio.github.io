@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-19T15:20:08.474Z</updated>
+  <updated>2020-11-06T14:52:29.050Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>极其深刻的检讨书</title>
+    <link href="http://example.com/posts/29276.html"/>
+    <id>http://example.com/posts/29276.html</id>
+    <published>2020-11-06T14:52:00.000Z</published>
+    <updated>2020-11-06T14:52:29.050Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;ipage&quot;&gt;
+    &lt;div class=&quot;ititle&quot;&gt;11月6日检讨书&lt;/div&gt;
+  &lt;div class=&quot;izhengwen&quot;&gt;
+    &lt;p&gt;亲爱的宝贝:
+    &lt;/p&gt;
+   </summary>
+        
+      
+    
+    
+    
+    <category term="书信" scheme="http://example.com/categories/%E4%B9%A6%E4%BF%A1/"/>
+    
+    
+    <category term="书信" scheme="http://example.com/tags/%E4%B9%A6%E4%BF%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>送宝宝一朵量子玫瑰</title>
@@ -74,7 +104,7 @@
     <link href="http://example.com/posts/10919.html"/>
     <id>http://example.com/posts/10919.html</id>
     <published>2020-08-25T01:25:00.000Z</published>
-    <updated>2020-10-18T15:27:05.302Z</updated>
+    <updated>2020-10-24T05:57:18.021Z</updated>
     
     
       
