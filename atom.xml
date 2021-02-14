@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-14T08:07:21.741Z</updated>
+  <updated>2021-02-14T15:37:06.668Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>检讨书</title>
+    <link href="http://example.com/posts/29476.html"/>
+    <id>http://example.com/posts/29476.html</id>
+    <published>2021-02-14T14:52:00.000Z</published>
+    <updated>2021-02-14T15:37:06.668Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;ipage&quot;&gt;
+    &lt;div class=&quot;ititle&quot;&gt;检讨书&lt;/div&gt;
+  &lt;div class=&quot;izhengwen&quot;&gt;
+    &lt;p&gt;今天惹宝宝不高兴了，要命的是今天还是情人节。感到非常害怕。&lt;/p&gt;
+   </summary>
+        
+      
+    
+    
+    
+    <category term="书信" scheme="http://example.com/categories/%E4%B9%A6%E4%BF%A1/"/>
+    
+    
+    <category term="检讨" scheme="http://example.com/tags/%E6%A3%80%E8%AE%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020年强哥和飘仔的账单</title>
     <link href="http://example.com/posts/29376.html"/>
     <id>http://example.com/posts/29376.html</id>
     <published>2021-01-11T05:04:00.000Z</published>
-    <updated>2021-02-14T08:07:21.741Z</updated>
+    <updated>2021-02-14T15:28:58.894Z</updated>
     
     
       
@@ -50,7 +79,7 @@
     <link href="http://example.com/posts/29276.html"/>
     <id>http://example.com/posts/29276.html</id>
     <published>2020-11-06T14:52:00.000Z</published>
-    <updated>2020-11-07T04:50:43.931Z</updated>
+    <updated>2021-02-14T15:28:44.817Z</updated>
     
     
       
@@ -70,7 +99,7 @@
     <category term="书信" scheme="http://example.com/categories/%E4%B9%A6%E4%BF%A1/"/>
     
     
-    <category term="书信" scheme="http://example.com/tags/%E4%B9%A6%E4%BF%A1/"/>
+    <category term="检讨" scheme="http://example.com/tags/%E6%A3%80%E8%AE%A8/"/>
     
   </entry>
   
