@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-07T04:50:43.931Z</updated>
+  <updated>2021-02-14T08:07:21.741Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020年强哥和飘仔的账单</title>
+    <link href="http://example.com/posts/29376.html"/>
+    <id>http://example.com/posts/29376.html</id>
+    <published>2021-01-11T05:04:00.000Z</published>
+    <updated>2021-02-14T08:07:21.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;转账&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;强哥:52+52+52+3.5+1.5+52+520+131.4+52+520+52+52+52+2+250;总计2114.4&lt;/li&gt;
+&lt;li&gt;飘仔:200+3+13.14+8+13.14+5.2+2;总计244.48&lt;/</summary>
+        
+      
+    
+    
+    
+    <category term="杂记" scheme="http://example.com/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+    <category term="账单" scheme="http://example.com/tags/%E8%B4%A6%E5%8D%95/"/>
+    
+  </entry>
   
   <entry>
     <title>极其深刻的检讨书</title>
