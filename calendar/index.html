@@ -582,7 +582,7 @@
 
         var iv = setInterval(() => {
             if (screen.complete && screenMask.complete) {
-                screenImageCtx.drawImage(screen, -1041, -210, 1280, 720);
+                screenImageCtx.drawImage(screen, -971, -235, 1280, 720);
                 screenImageCtx.globalCompositeOperation = "destination-atop";
                 screenImageCtx.drawImage(screenMask, 0, 0);
                 screenImageCtx.globalCompositeOperation = "source-over";
@@ -691,33 +691,33 @@
         }
 
         // 奇妙的Normalize
-        var peakValue = 1;
-        if (window.wallpaperRegisterAudioListener) {
-            window.wallpaperRegisterAudioListener(function (audioData) {
-                var max = 0;
+        // var peakValue = 1;
+        // if (window.wallpaperRegisterAudioListener) {
+        //     window.wallpaperRegisterAudioListener(function (audioData) {
+        //         var max = 0;
 
-                for (var i = 0; i < 128; i++) {
-                    if (audioData[i] > max)
-                        max = audioData[i];
-                }
+        //         for (var i = 0; i < 128; i++) {
+        //             if (audioData[i] > max)
+        //                 max = audioData[i];
+        //         }
 
-                peakValue = peakValue * 0.99 + max * 0.01;
+        //         peakValue = peakValue * 0.99 + max * 0.01;
 
-                for (i = 0; i < 64; i++) {
-                    data[63 - i] = audioData[i] / peakValue;
-                }
+        //         for (i = 0; i < 64; i++) {
+        //             data[63 - i] = audioData[i] / peakValue;
+        //         }
 
-                for (i = 0; i < 64; i++) {
-                    data[127 - i] = audioData[127 - i];
-                }
-            });
-        } else {
-            var iva = setInterval(() => {
-                for (var i = 0; i < 128; i++) {
-                    data[i] = Math.random();
-                }
-            }, 10);
-        }
+        //         for (i = 0; i < 64; i++) {
+        //             data[127 - i] = audioData[127 - i];
+        //         }
+        //     });
+        // } else {
+        //     var iva = setInterval(() => {
+        //         for (var i = 0; i < 128; i++) {
+        //             data[i] = Math.random();
+        //         }
+        //     }, 10);
+        // }
 
         // ....
         function min(a, b) {
