@@ -85,19 +85,38 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
+    <a href="/artitalk" class="waves-effect waves-light">
       
-      <span>标签</span>
+      <span>说说</span>
     </a>
     
   </li>
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/artitalk" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
-      <span>说说</span>
+      <span>归档</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/archives">
+          
+          <span>日历</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -265,23 +284,43 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
-			
-				<i class="fas fa-fw fa-link"></i>
-			
-			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/artitalk" class="waves-effect waves-light">
 			
 				<i class="fas fa-fw fa-link"></i>
 			
 			说说
 		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			归档
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+		          <span>日历</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -447,12 +486,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
-</script>
-<script>
-
-        $('.bg-cover').css('background-image', 'url(/medias/banner/WechatIMG128.jpeg)');
-    
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 

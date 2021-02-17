@@ -85,19 +85,38 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
+    <a href="/artitalk" class="waves-effect waves-light">
       
-      <span>标签</span>
+      <span>说说</span>
     </a>
     
   </li>
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/artitalk" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
-      <span>说说</span>
+      <span>归档</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/archives">
+          
+          <span>日历</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -265,23 +284,43 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
-			
-				<i class="fas fa-fw fa-link"></i>
-			
-			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/artitalk" class="waves-effect waves-light">
 			
 				<i class="fas fa-fw fa-link"></i>
 			
 			说说
 		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			归档
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+		          <span>日历</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -447,12 +486,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
-</script>
-<script>
-
-        $('.bg-cover').css('background-image', 'url(/medias/banner/WechatIMG128.jpeg)');
-    
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -475,8 +511,8 @@
                 
                 
                 
-                <a href="/categories/%E8%A7%86%E9%A2%91/" title="视频: 1">
-                    <div class="moleskine-wrapper"> <div class="moleskine-notebook"> <div class="chip notebook-cover center-align waves-effect waves-light  chip-default " style="background-color: #F9EBEA;"> <div class="notebook-skin  chip-default " >视频 </div> </div> <div class="notebook-page dotted"></div> </div> </div>
+                <a href="/categories/%E6%9D%82%E8%AE%B0/" title="杂记: 1">
+                    <div class="moleskine-wrapper"> <div class="moleskine-notebook"> <div class="chip notebook-cover center-align waves-effect waves-light  chip-default " style="background-color: #F9EBEA;"> <div class="notebook-skin  chip-default " >杂记 </div> </div> <div class="notebook-page dotted"></div> </div> </div>
                 </a>
                 
                 
@@ -485,13 +521,13 @@
                 </a>
                 
                 
-                <a href="/categories/%E6%9D%82%E8%AE%B0/" title="杂记: 1">
-                    <div class="moleskine-wrapper"> <div class="moleskine-notebook"> <div class="chip notebook-cover center-align waves-effect waves-light  chip-default " style="background-color: #D5F5E3;"> <div class="notebook-skin  chip-default " >杂记 </div> </div> <div class="notebook-page dotted"></div> </div> </div>
+                <a href="/categories/%E4%B9%A6%E4%BF%A1/" title="书信: 3">
+                    <div class="moleskine-wrapper"> <div class="moleskine-notebook"> <div class="chip notebook-cover center-align waves-effect waves-light  chip-default " style="background-color: #D5F5E3;"> <div class="notebook-skin  chip-default " >书信 </div> </div> <div class="notebook-page dotted"></div> </div> </div>
                 </a>
                 
                 
-                <a href="/categories/%E4%B9%A6%E4%BF%A1/" title="书信: 3">
-                    <div class="moleskine-wrapper"> <div class="moleskine-notebook"> <div class="chip notebook-cover center-align waves-effect waves-light  chip-default " style="background-color: #E8F8F5;"> <div class="notebook-skin  chip-default " >书信 </div> </div> <div class="notebook-page dotted"></div> </div> </div>
+                <a href="/categories/%E8%A7%86%E9%A2%91/" title="视频: 1">
+                    <div class="moleskine-wrapper"> <div class="moleskine-notebook"> <div class="chip notebook-cover center-align waves-effect waves-light  chip-default " style="background-color: #E8F8F5;"> <div class="notebook-skin  chip-default " >视频 </div> </div> <div class="notebook-page dotted"></div> </div> </div>
                 </a>
                 
                 
@@ -542,7 +578,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"视频","max":4},{"name":"故事","max":4},{"name":"杂记","max":4},{"name":"书信","max":4},{"name":"礼物","max":4}],
+            indicator: [{"name":"杂记","max":4},{"name":"故事","max":4},{"name":"书信","max":4},{"name":"视频","max":4},{"name":"礼物","max":4}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -553,7 +589,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,2,1,3,1],
+                    value : [1,2,3,1,1],
                     name : '文章分类数量'
                 }
             ]
