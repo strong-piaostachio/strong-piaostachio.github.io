@@ -878,7 +878,7 @@ class="themespring" -->
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    636
+                    656
                 </div>
                 
 
@@ -927,6 +927,7 @@ class="themespring" -->
     min-height: 170px;
     padding: 10px 0;
     border-bottom: 1px #ddd solid;
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -934,7 +935,17 @@ class="themespring" -->
         width: 100%;
     }
 }
-
+@media screen and (max-width: 600px) {
+    .hexo-douban-picture {
+        display:none;
+    }
+    .hexo-douban-info {
+        padding-left: 0px;
+    }
+    .hexo-douban-item{
+        min-height: auto;
+    }
+}
 .hexo-douban-picture {
     position: absolute;
     left: 0;
@@ -947,12 +958,13 @@ class="themespring" -->
 }
 
 .hexo-douban-meta {
-    font-size: 12px;
+    
     padding-right: 10px;
+    color: #ff5e00;
 }
 
 .hexo-douban-comments {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .hexo-douban-pagination {
@@ -966,7 +978,7 @@ class="themespring" -->
 }
 
 .hexo-douban-button:hover {
-    background: #657b83;
+
     color: #fff;
 }
 
